@@ -1,0 +1,32 @@
+<style>
+.scorecard{
+	margin-top: 10px;
+	width:100%;
+	background-color:#FCEAEA;
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+#score_url{display:none;}
+@media only screen and (min-width:981px) {
+	.scorecard{
+		height:90px;
+		background-image: url("./asset/bg_desk_bn.svg");
+	}
+	.scorecard #desk_score{position: relative;left: 325px;top: 15px;}
+
+}
+@media only screen and (max-width:980px) {
+	.scorecard{
+		height:130px;
+		background-image: url("./asset/bg_mobile_bn.svg");
+	}
+	.scorecard #desk_score{height:56px;position: relative;left: 0px;top: 45px;}
+	#score_url{margin: 50px 0px 0 5px;display:block;color:#36017B;text-decoration:none;font-size: 14px;font-weight:bold;text-align: left;}
+}
+
+</style>
+<div class="scorecard" onclick="location.href='https://bangla.bdnews24.com/cricket/x6cc2z93bd';">
+<iframe id="desk_score" height="90px" width="320px" scrolling="no" src="https://read.pavscores.com/#/bn/cricket/69"
+style="-webkit-transform:scale(1);-moz-transform-scale(1);border: 0px none;"></iframe>
+<a id="score_url" href="https://bangla.bdnews24.com/cricket/x6cc2z93bd">পূর্ণাঙ্গ স্কোরকার্ড</a>
+</div>
