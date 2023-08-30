@@ -1,5 +1,5 @@
 <style>
- div[data-infinite-scroll="0"] .OEtoD {display:block;
+ div[data-infinite-scroll="0"] .OEtoD {
 	padding: 0;
 	overflow: hidden;
 	border: none;
@@ -14,19 +14,21 @@
 #score_url{display:none;}
 @media only screen and (min-width:981px) {
 	.scorecard{
+		width:970px;
 		height:90px;
 		background-image: url("https://faizan-bdnews24.github.io/scorecard/asia-cup-2023/asset/bg_desk_bn.svg");
 	}
-	.scorecard #desk_score{position: relative;left: 325px;top: 15px;}
+	.scorecard #desk_score{height:90px;position: relative;left: 325px;top: 5px;}
 
 }
 @media only screen and (max-width:980px) {
 	.scorecard{
-		height:130px;
-		background-image: url("https://faizan-bdnews24.github.io/scorecard/asia-cup-2023/asset/bg_mobile_bn.svg");
+		max-width:320px;
+		height:165px;
+		background-image: url("https://faizan-bdnews24.github.io/scorecard/asia-cup-2023/asset/bg_mobile_en.svg");
 	}
-	.scorecard #desk_score{height:56px;position: relative;left: 0px;top: 45px;}
-	#score_url{margin: 50px 0px 0 5px;display:block;color:#36017B;text-decoration:none;font-size: 14px;font-weight:bold;text-align: left;}
+	.scorecard #desk_score{height:90px;position: relative;left: 0px;top: 45px;}
+	#score_url{margin: 50px 0px 0 5px;display:block;color:#36017B;text-decoration:none;font-size: 14px;font-weight:bold;text-align: center;}
 }
 
 </style>
