@@ -1,35 +1,34 @@
 <style>
- div[data-infinite-scroll="0"] .OEtoD {
-	padding: 0;
-	overflow: hidden;
-	border: none;
+ div[data-infinite-scroll="1"] .OEtoD {
+	margin-top: 10px;
     }
 .scorecard{
-	margin-top: 10px;
 	width:100%;
 	background-color:#FBF8FF;
 	background-repeat: no-repeat;
 	cursor:pointer;
-	border: 1px solid red;
+	border: 1px solid #320073;
 }
 #score_url{display:none;}
 @media only screen and (min-width:981px) {
 	.scorecard{
 		width:970px;
-		height:95px;
+		height:90px;
 		background-image: url("https://scorecard.bdnews24.com/worldcup-2023/asset/bg_desk_en.svg");
 	}
-	.scorecard #desk_score{height:90px;position: relative;left: 325px;top: 0px;}
+	.scorecard #desk_score{height:90px;position: relative;left: 340px;top: 0px;}
 
 }
 @media only screen and (max-width:980px) {
 	.scorecard{
+		margin-top: 5px;
 		max-width:320px;
-		height:190px;
+		height:180px;
 		background-image: url("https://scorecard.bdnews24.com/worldcup-2023/asset/bg_mobile_en.svg");
+		background-color:#c9badc;
 	}
 	.scorecard #desk_score{height:113px;position: relative;left: 0px;top: 45px;}
-	#score_url{margin: 50px 0px 0 5px;display:block;color:#012559;text-decoration:none;font-size: 14px;font-weight:bold;text-align: center;}
+	#score_url{margin: 40px 0px 0 5px;display:block;color:#012559;text-decoration:none;font-size: 14px;font-weight:bold;text-align: center;}
 }
 
 </style>
